@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header {
+ display: flex;
+ padding: 1rem;
+}
+
+h1{
+    display: block;
+}
+
+.header-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
